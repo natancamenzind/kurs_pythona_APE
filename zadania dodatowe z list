@@ -1,0 +1,28 @@
+zadania dodatowe z list
+1. program który sumuje wszystkie elementy listy
+2. program, który wypisze potęgi wszystkich liczy z podanego zakresu
+3. program który zwróci listę wszystkich liczb od 1459 do 2400
+	3.1 znajdzie tylko liczby podzielne przez 7 i niepodzielne przez 5 (użyj modulo, czyli n%7 == 0)
+	3.2 doda je do siebie
+	3.3 i zwróci ich średnią
+
+4. program, który przyjmuje listę i mówi, ile jest w niej stringów dłuższych niż 4 znaki
+
+5. program, który liczy słow w tekście (wymagana metoda split)
+	5.1 ile jest wszystkich słow
+	5.2 ile jest słow jednoliterowych
+	5.3 ile razy została użyta kropa/znak zapytania/wykrzykink/litera a
+	5.4 jaki będzie średni czas potrzebny do przeczytania tego tekstu (znajdź w necie jaka jest średnia szybkość czytania)
+
+6. napisz program, który zwróci listę z elementami w odwrotnej kolejności
+	in: [1, 2, 4, 6, 7346, 'asdf']
+	out ['asdf', 7346, 6, 4, 2, 1]
+
+7. program, który przyjmie dwie listy i zwróci dzielące je różnice
+	in: [1, 5, 95], [5, 'asdf', 1]
+	out [95, 'asdf']
+
+8. program, który przyjmuje dwa elementy (listę i cyfrę) i zwraca tak zmienioną listę
+	in: ['a', 'b'], 3
+	out: ['a1', 'b1', 'a2', 'b2', 'a3', 'b3']
+
