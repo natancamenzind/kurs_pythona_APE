@@ -1,0 +1,16 @@
+zadania dodatkowe ze słowników
+1. napisz program, który połączy klika słowników w jeden
+	in: dic1={1:10, 2:20} 
+		dic2={3:30, 4:40} 
+		dic3={5:50,6:60}
+	out:  {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+
+2. Wirtualny dziennik
+	Słownik, który przechowuje dane o ocenach uczniów
+	Funcje:
+	1. Dodaj ucznia
+	2. dodaj ocenę ucznia
+	3. policz średnią ucznia
+	4. policz średnią klasy
+	5. Wylistuj uczniów
+	6. Wylistuj uczniów ze średnimi ocen
