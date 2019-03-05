@@ -1,0 +1,38 @@
+Wyrażenia regularne
+1. o co w ogóle chodzi
+2. wykorzystanie w pythonie
+3. zadania
+
+AD 2
+
+\d - cyfra
+\d{3} - trzy cyfry
+\d+ - jedna cyfra lub więcej
+
+tworzenie obiektu regexowego:
+regex_object = re.compile(r'\d{6}')
+
+dlaczego r na początku?
+normalnie podanie '\' przed znakiem w stringu powoduje, że trakutyjemy go jako znak specjalny
+tak się dzieje przy enterze, który uzyskujemy dzięki '\n'
+natomiast w przypadu wyrażeń regularnych faktycznie chcemy mieć '\' jako znak
+żeby to uzykać na piechotę moglibyśmy napisać to tak:
+regex = '\\d'
+ale zamiast za każdym razem wklepywać '\' dwa raz, możemy na początku stringa postawić 'r', co znaczy, że chcemy mieć string surowy, raw
+
+szukanie wyrażeń spełniających wymogi regexu:
+match_object = regex_object.search('My phone number is 500-208-803')
+funckcja search() zwraca Match Object, bardziej rozbudowane pudełko, z którego będziemy musieli dopiero wyciągnąć interesujący nas fragmetu stringa
+
+phone_number = match_object.group()
+i mamy nasz numer telefonu
+
+co jeśli w tekście jest kilka numerów telefonu?
+wtedy tak użyta funckja group() zwróci tylko jeden wynik
+żeby uzyskać wszystki wystapienia używamy funkcji findall()
+phone_numbers = regex_object.findall('500-208-803, 15.06.1991 543-234-245, 666 ^$&#$@ katastrofa 543-121-232')
+dostaniemy listę ze wszystkimi numerami telefonów
+
+Wyrażenia regularne mają mnóstwo zasad, które pozwalają bardzo precyzyjnie określić, czego szukamy
+
+tester wyrażeń regularnych ze ściągą: https://regex101.com/
