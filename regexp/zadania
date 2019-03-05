@@ -1,0 +1,16 @@
+zadanie 1:
+napisz funkcję, która znajduje w tekście numer telefonu (załóżmy, że nr zawsze ma strukturę typu 666-342-213)
+
+zadanie 2:
+napisz funkcję, która sprawdza, czy w tekście jest numer telefonu. jeśli tak, niech go zwróci, jeśli nie, niech powie, że w tekście nie ma numeru telefonu
+
+zadanie 3:
+
+napisz funkcje, która znajdzie w teście wszystkie słowa, które zaczynają się na "p" i kończą na "a"
+niech zwraca listę tych słów oraz ich ilość
+
+Przykładowy teskt:
+"""
+Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś piękność twą w szkole. Ale co wzdłuż i posępny obok Jegomościa. Między nim ją bardzo dobitnie malował. Był dawniej było głucho w wieku może Białopiotrowiczowi samemu odmówił! Bo nie będziesz przy Bernardynie, bernardyn zmówił krótki pacierz po ścianach: w sieni siadł przy boku miał, w ziemstwie, potem się w ręku trzyma obyczajem pańskim i wkrótce wielki post - krzyknął pan Rejent. - domy i zalety Ściągnęły wzrok jak pożar na krzesła poręczu rozpięta. A na krzaki fijołkowe skłonił oczyma ciekawymi po desce opartej o tem dawno w nędzy. Jak go rodzi? Z wieku mu jego lata Śród cichej wsi po zadzwonieniu na Francuza. oj, ten odwiązywać, składać. Właśnie dwukonną bryką wjechał młody panek i pijąc obie złotą Podkomorzy i wzgląd na sądy graniczne dla Rosyi straszną jak żaczek przed laty, nad brzegiem ruczaju na miejscu biegało domysłów tysiące kroków zamek dziś toczy się strony a ciotka w każdej jest obrazów wspaniałych zarysem. czytał więc i pończoszki. Na niem noga moja nie po ścianach: w zastępstwie gospodarza, w Marengo, w.
+"""
+
