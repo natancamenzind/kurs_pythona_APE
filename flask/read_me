@@ -1,0 +1,9 @@
+FLASK
+
+1. Zainstaluj flaska
+	pip install flask
+	jeśli jest problem:
+		curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+		python get-pip.py
+
+2. Prześledź pliki server.py i 3 kolejne template.py

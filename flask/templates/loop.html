@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Hello {{ name }}</h1>
+	<h3> we have following users in our system
+	</h3>
+	{% for user in users %}
+	<p>
+		name: {{ user.login}}, password: {{ user.password }}
+	</p>
+	{% endfor %}
+</body>
+</html>
