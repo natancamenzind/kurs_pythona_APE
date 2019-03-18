@@ -1,0 +1,16 @@
+<html>
+   <body>
+   	<!-- jeśli używasz taga 'form' bardzo ważne są dwa atrybuty 'action' i 'method' -->
+   	<!-- action mówi, gdzie mamy się przenieść po zatwierdzeniu formularza, w tym przypadku na tę samą stronę -->
+   	<!-- method czyli jaką metodą ma zostać wysłany formularz. tutaj POST, ale używa się jeszcze PUT do podobnych zadań -->
+      <form action = "/" method = "POST">
+      	<!-- w każdym polu musimy dać atrybut 'name', bez niego nie będziemy w stanie dostać się potem do danych -->
+         <p>Name<input type = "text" name = "name" /></p>
+         <p>Physics <input type = "text" name = "physics" /></p>
+         <p>Chemistry <input type = "text" name = "chemistry" /></p>
+         <p>Maths <input type ="text" name = "maths" /></p>
+         <!-- jeśli inputowi nadamy type "submit" przeglądarka z automatu wyrenderuje przycisk -->
+         <p><input type = "submit" value = "Submit" /></p>
+      </form>
+   </body>
+</html>
