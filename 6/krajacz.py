@@ -5,5 +5,5 @@ while word != "":
 		break
 	start = int(input('Indeks początkowy\n'))
 	end = int(input('Indeks końcowy\n'))
-	print('Słowo {} z indeksami [{}:{}] '.format(word, start, end) + word[start:end])
+	print(f'Słowo {word} z indeksami [{start}:{end}] {word[start:end]}')
 	print('Aby zakończyć wciśniej Enter')

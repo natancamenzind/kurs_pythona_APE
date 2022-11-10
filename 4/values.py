@@ -5,7 +5,7 @@ def ask_for_values():
 	if value == "czystość białe rasy":
 		print("You monster!")
 	else:
-		print("It is greate {} that you find {} important".format(name, value))
+		print(f"It is greate {name} that you find {value} important")
 
 ask_for_things()
 ask_for_things()

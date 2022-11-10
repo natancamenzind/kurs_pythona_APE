@@ -1,9 +1,5 @@
 # dodatkowe zadania z list
-answer =[]
-for i in range(2500, 3800):
-	if i%7 == 0 and i%5 != 0:
-		answer.append(i)
-
+answer = [i for i in range(2500, 3800) if i%7 == 0 and i%5 != 0]
 print(answer)
 
 

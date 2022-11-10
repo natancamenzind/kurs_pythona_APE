@@ -1,7 +1,7 @@
 to_do_list = []
 possible_opperations = ['add', 'remove', 'show_all', 'insert', 'pop', 'clear']
 
-print('Hello to your to do list app!\nYou can {}'.format(possible_opperations))
+print(f'Hello to your to do list app!\nYou can {possible_opperations}')
 action = ' '
 while action:
 	action = input('What would you like to do?')

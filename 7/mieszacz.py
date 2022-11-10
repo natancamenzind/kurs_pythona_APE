@@ -14,7 +14,7 @@ def mieszacz(word):
 for word123 in word_list:
 	zmieszane_slowo = mieszacz(word123)
 
-	quese = input('Zgadnij co to za słow {}'.format(zmieszane_slowo))
+	quese = input(f'Zgadnij co to za słow {zmieszane_slowo}')
 	while quese != word123:
 		quese = input('ŹLE!!! Jeszcze raz')
 	print('Pięknie!')

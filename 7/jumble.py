@@ -14,7 +14,7 @@ def create_jumble(word):
 
 for word in words:
 	jumble = create_jumble(word)
-	guess = input('Co to za słowo: {}\n'.format(jumble))
+	guess = input(f'Co to za słowo: {jumble}\n')
 	while guess != word:
 		guess = input('Źle! Jeszcze raz!\n')
 	print('Git!')

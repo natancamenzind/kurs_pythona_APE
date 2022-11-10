@@ -8,5 +8,5 @@ while slowo != '':
 		i2 = int(input("podaj drugi indeks"))
 
 		wynik = slowo[i1:i2]
-		print("Slowo {} z indeksami [{}:{}] to: {}".format(slowo, i1, i2, wynik))
+		print(f"Slowo {slowo} z indeksami [{i1}:{i2}] to: {wynik}")
 
