@@ -57,7 +57,6 @@ milionerzy_db = {
 
 import json
 
-file = open('milionerzy_db', 'w')
-content = json.dumps(milionerzy_db)
-file.write(content)
-file.close()
+with open('milionerzy_db', 'w') as file:
+    content = json.dumps(milionerzy_db)
+    file.write(content)

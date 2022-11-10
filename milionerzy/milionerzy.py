@@ -6,8 +6,7 @@ def load_db():
 	return json.loads(file.read())
 # 2. load question, show answers
 def get_question(db, answered_questions):
-	question =  random.choice(list(db.items()))
-	return question
+	return random.choice(list(db.items()))
 
 def create_shuffled_answers(question):
 	"""
@@ -30,12 +29,9 @@ def create_shuffled_answers(question):
 
 def print_question_and_answers(question, answer):
 	print(question.get('question'))
-	print("A: {}\nB: {}\nC: {}\nD: {}"
-		.format(answer.get('A'),
-				answer.get('B'),
-				answer.get('C'),
-				answer.get('D'),)
-		)
+	print(
+		f"A: {answer.get('A')}\nB: {answer.get('B')}\nC: {answer.get('C')}\nD: {answer.get('D')}"
+	)
 
 db = load_db()
 print('\n\n\n\tMILIARD W ROZUMIE\n\n\n\n')
@@ -58,5 +54,5 @@ while len(answered_questions) != len(db):
 		print('Do dupy!')
 		bad += 1
 
-print("Dobrze: {}".format(good))
-print("Źle: {}".format(bad))
+print(f"Dobrze: {good}")
+print(f"Źle: {bad}")

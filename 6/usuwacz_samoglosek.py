@@ -9,4 +9,4 @@ for litera in zdanie:
 
 		print(result)
 
-print('Final ' + result)
+print(f'Final {result}')

@@ -27,9 +27,7 @@ def login():
 @app.route('/')
 def index():
 	# dane z sesji wyciągamy jak ze słownika
-	if not session.get('logged_in') == True:
-		return login()
-	return 'GOOD HAKER'
+	return login() if session.get('logged_in') != True else 'GOOD HAKER'
 
 if __name__ == '__main__':
 	app.run()

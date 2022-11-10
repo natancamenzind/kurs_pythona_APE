@@ -15,7 +15,7 @@ while pytanie != 'koniec':
 	elif 'admin123' in pytanie:
 		new_key = input('Podaj nowy klucz')
 		my_dict[new_key] = input('podaj nowe dane')
-		print(my_dict.get(new_key) + ' dodano do słownika')
+		print(f'{my_dict.get(new_key)} dodano do słownika')
 	else: 
 		print('To są dane poufne')
 
@@ -24,5 +24,5 @@ while pytanie != 'koniec':
 
 
 for k, v in my_dict.items():
-	print('My {} is {}'.format(k, v))
+	print(f'My {k} is {v}')
 

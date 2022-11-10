@@ -18,5 +18,5 @@ def start():
 		value = minus(num1, num2)
 	elif to_do1 == 'divide':
 		value = divide(num1, num2)
-	print('Our value is {}'.format(value))
+	print(f'Our value is {value}')
 
